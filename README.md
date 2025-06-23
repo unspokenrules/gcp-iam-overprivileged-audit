@@ -4,8 +4,8 @@ This project identifies IAM principals (users or service accounts) that have bro
 
 ## 💡 Features
 
-- Scan a project or entire GCP org
-- Detect broad roles (e.g. `roles/editor`, `roles/owner`,`roles/iam.serviceAccountUser`)
+- Scan a GCP project
+- Detect broad roles (e.g. `roles/editor`, `roles/owner`,`roles/writer`)
 - List users/service accounts with excessive permissions
 - Output to CSV with recommendations
 
