@@ -31,7 +31,7 @@ gcloud services enable cloudasset.googleapis.com
 git clone https://github.com/yourname/gcp-iam-overprivileged-audit.git
 cd gcp-iam-overprivileged-audit
 pip install -r requirements.txt
-python main.py --project my-gcp-project-id
+python gcp-iam-overprivileged-audit.py --project my-gcp-project-id
 ```
 
 ## 📂 Output
