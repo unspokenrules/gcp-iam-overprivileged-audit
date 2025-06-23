@@ -9,7 +9,7 @@ def get_iam_policy(project_id):
     return json.loads(result.stdout)
 
 def is_overprivileged(role):
-    return role in ["roles/editor", "roles/owner", "roles/iam.serviceAccountUser"]
+    return role in ["roles/editor", "roles/owner", "roles/writer"]
 
 def audit_project(project_id):
     policy = get_iam_policy(project_id)
